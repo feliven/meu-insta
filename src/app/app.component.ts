@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
 
 import { ListaPostsComponent } from './pages/lista-posts/lista-posts.component';
+import { CarrosselStoriesComponent } from './components/carrossel-stories/carrossel-stories.component';
+import { BarraLateralComponent } from './components/barra-lateral/barra-lateral.component';
 
 @Component({
   selector: 'app-root',
-  imports: [ListaPostsComponent],
+  imports: [
+    ListaPostsComponent,
+    CarrosselStoriesComponent,
+    BarraLateralComponent,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
