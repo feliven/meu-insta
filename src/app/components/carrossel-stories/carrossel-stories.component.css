@@ -1,3 +1,16 @@
+section {
+  background-color: blue;
+  max-width: 500px;
+  overflow: hidden;
+}
+
 div {
   background-color: lightcyan;
+}
+
+.circulo-usuario {
+}
+
+.imagem-perfil {
+  max-width: 75px;
 }
