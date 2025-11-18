@@ -1,6 +1,7 @@
 section {
   background-color: lightgoldenrodyellow;
   width: 200px;
+  max-height: 88vh;
 }
 
 div {
