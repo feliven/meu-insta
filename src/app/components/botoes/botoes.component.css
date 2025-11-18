@@ -1,0 +1,13 @@
+div {
+  background-color: lightgreen;
+}
+
+.icone {
+  color: green;
+  font-size: 30px;
+}
+
+.icone:hover {
+  color: lightseagreen;
+  cursor: default;
+}
