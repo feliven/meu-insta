@@ -1,3 +1,13 @@
 .carrossel-e-lista {
-  margin-left: 220px;
+  margin-left: 15rem;
+}
+
+@media (max-width: 768px) {
+  .barra-lateral {
+    display: none;
+  }
+
+  .carrossel-e-lista {
+    margin-left: 0;
+  }
 }
