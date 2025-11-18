@@ -1,11 +1,29 @@
 section {
   width: 500px;
+  background-color: orange;
 }
 
 div {
   background-color: lightpink;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
 .imagem-perfil {
   max-width: 40px;
+}
+
+.icone-menu {
+  cursor: default;
+}
+
+.icone-menu:hover {
+  color: aqua;
 }
